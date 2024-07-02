@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    color:bisque;
+}
+.btn {
+    height:170px;
+    width:170px;
+    border:5px solid black;
+    border-radius: 20%;
+    margin:2.5rem;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+.red {
+    background-color: rgb(197, 52, 96);
+}
+.blue {
+    background-color:rgb(76, 127, 199);
+}
+.yellow {
+    background-color: rgb(235, 209, 40);
+}
+.green {
+    background-color: rgb(141, 184, 48);
+}
+.gameFlash {
+    background-color: white;
+}
+.userFlash {
+    background-color:rgb(15, 15, 15);
+}
+body {
+    background: linear-gradient(300deg, #4b2004, #04624f, #300487);
+    background-size: 180% 180%;
+    animation: gradient-animation 14s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .star {
+font-size: 1.5rem;
+padding:10px;
+border-radius: 1rem;
+text-transform: uppercase;
+margin-top: 20px;
+background-color: rgb(62, 225, 25);
+color:rgb(86, 9, 9);
+  }
+
+  .hidden {
+    display:none;
+  }
